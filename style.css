@@ -1,0 +1,170 @@
+/*header start*/
+.header{
+	min-height: 155px;
+	background-color: #121B2A;
+	overflow: hidden;
+	
+}
+.wrapper{
+	width: 80%;
+	margin: 0 auto;
+}
+.img{
+
+	width: 20%;
+	float: left;
+}
+.nav{
+	width: 70%;
+	float: right;
+	display: block;
+}
+.nav ul{
+	list-style: none;
+	
+}
+.nav ul li{
+	display: block;
+	float: left;
+	padding: 34px 24px;
+}
+.nav ul li a{
+	text-decoration: none;
+	color: white;
+	font-weight: 20px;
+}
+.nav ul li a:hover{
+	background-color: #0177BD;
+	color: white;
+	transition: .5s;
+	display: block;
+	padding: 1px;
+}
+/*header end*/
+/*banner start*/
+.banner{
+	margin-top: -20px;
+	background-image: url(banner2.jpg);
+	width: 100%;
+	min-height: 450px;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+
+}
+.banner_content{
+	color: white;
+	margin-left: 20px;
+	color: white;
+	padding-top: 20px;
+}
+.banner_content h2{
+	color: #73C7FF;
+	font-size: 35px; 
+}
+
+}
+.banner_content button{
+	padding: 6px;
+    border-radius: 30px;
+    border: none;
+}
+.fixedbutton {
+    position: fixed;  
+}
+.banner_content button:hover{
+	color: #C292AA;
+	background-color: #294189;
+
+}
+/*banner end*/
+/*service start*/
+.service{
+	background-color: #121B2A;
+	min-height: 300px;
+	overflow: hidden;
+	width: 100%;
+}
+.service_section{
+	overflow: hidden;
+}
+.service1{
+	width: 30%;
+	float: left;
+	color: white;
+	border-right: 1px solid white;
+	padding: 15px;
+}
+.service1:last-child{
+	border-right: none;
+}
+.service1_content{
+	width: 100%;
+}
+.service1_content img{
+	width: 20%;
+	float: left;
+}
+.service1_content p{
+	width: 80%;
+	float: right;
+}
+/*service end*/
+/*footer start*/
+.footer{
+	
+	background-color: #121B2A;
+	overflow: hidden;
+	border-top: 1px solid black;
+
+
+}
+.footer_content{
+	/*width: 100%;*/
+	overflow: hidden;
+	width: 65%;
+	float: left;
+}
+.footer_image{
+	width: 30%;
+	float: right;
+	
+}
+.footer_nav{
+	
+	/*float: left;*/
+	margin-left: 0px;
+
+}
+
+}
+.footer_nav ul{
+
+	margin-left: 0px;
+}
+.footer_nav:first-child ul{
+	padding-left: none;
+}
+.footer_nav ul li{
+	list-style: none;
+	display: block;
+	float: left;
+	color: white;
+}
+.footer_nav ul li a{
+	color: white;
+	text-decoration: none;
+	padding: 10px;
+
+}
+.footer_nav p{
+	color: white;
+    margin-top: 25px;
+    padding-top: 35px;
+    text-align: justify;
+}
+.footer_nav ul {
+   
+    padding-left: 0px;
+}
+/*footer  end*/
